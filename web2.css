@@ -1,0 +1,86 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url('Logo\ 1.svg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(143, 142, 142, 0.379); /* Establece el color de fondo con una opacidad del 100% */
+    background-blend-mode: multiply; /* Combina el color de fondo y la imagen de fondo */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #003366;
+    color: #FFFFFF;
+}
+.header .logo {
+    width: 150px;
+    height: 50px;
+    background-color: #003366;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+}
+.header .menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.header .menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    background-color: #003366;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 100px 0;
+    border-radius: 5px;
+}
+.content .objective {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.content .description {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.footer {
+    text-align: center;
+    color: #003366;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin: 0;
+    padding: 8px;
+}
