@@ -68,6 +68,7 @@ h1 {
 }
 .content .description {
     max-width: 600px;
+    max-height: 450px;
     margin: 0 auto;
     padding: 20px;
     background-color: #FFFFFF;
